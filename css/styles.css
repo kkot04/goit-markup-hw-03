@@ -22,6 +22,14 @@ ul, ol{
     padding: 0;
 }
 
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
 img{
     display: block;
 }
@@ -46,32 +54,26 @@ body{
     
 }
 
-.link{
-    text-decoration: none;
-}
 
-.list{
-    list-style: none;
-}
 
 .container {
-    display: flex;
-    justify-content: center;
-    width: 1158px;
-    padding: 0 15px 0 15px;
+    max-width: 1158px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* logo-section */
 .header {
-    border-bottom: 1px solid #e7e9fc;
+    background-color: hotpink;
+    
 }
 
 
 
 .header-nav{
-    display: flex;
-    align-items: center;
+
+    
 }
 
 .logo {
@@ -82,8 +84,7 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    outline: solid rebeccapurple;
-    margin-right: 76px;
+
 }
 
 .logo-span {
@@ -98,18 +99,11 @@ body{
 }
 
 .header-list {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    outline: solid pink;
-    margin-right: 332px;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    padding: 24px 0;
+   
 }
 
 .header-item {
-    padding: 24px 0;
+
 }
 
 .header-link {
@@ -134,11 +128,7 @@ body{
 }
 
 .address-list {
-    display: flex;
-    justify-content: center;
-    outline: solid green;
-    align-items: center;
-    gap: 40px;
+
 }
 
 .address-item {}
@@ -164,7 +154,9 @@ body{
 /* hero section */
 .hero-section {
     background-color: var(--dark, #2E2F42) ;
-    padding: 188px 0;
+    padding: 188px 472px 188px 472px ;
+    margin-bottom: 120px;
+    
 }
 
 .hero-title {
@@ -174,25 +166,23 @@ body{
     letter-spacing: 0.02em;
     color: var(--white-background, #FFFFFF);
     max-width: 496px;
-
+    margin-bottom: 48px;
 }
 
 .hero-btn {
     background-color: var(--primary-brand, #4D5AE5);
+    color: var(--white-background, #FFFFFF);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--white-background, #FFFFFF);
     cursor: pointer;
-    display: block;
     min-width: 169px;
     height: 56px;
     border: none;
-    background-color: var(--primary-brand, #4D5AE5);
     border-radius: 4px;
-
+    padding: 16px;
 }
 
 .hero-btn:hover {
@@ -205,9 +195,13 @@ body{
 
 
 /* benefits section */
-.benefits-section {}
+.benefits-section {
+    margin-bottom: 60px;
+}
 
-.benefits-list {}
+.benefits-list {
+    
+}
 
 .list {}
 
@@ -228,7 +222,10 @@ body{
 
 
 /* doing sectoin */
-.doing-section {}
+.doing-section {
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
 
 .doing-title {
     font-size: 36px;
@@ -237,6 +234,8 @@ body{
     text-transform: capitalize;
     letter-spacing: 0.02em;
     color: var(--dark, #2E2F42);
+    margin-bottom: 72px;
+
 }
 
 .doing-list {}
@@ -248,6 +247,8 @@ body{
 /* our team section  */
 .team-section {
     background-color: var(--light,#F4F4FD) ;
+    margin-top: 120px;
+    margin-bottom: 72px;
 }
 
 .team-title {
