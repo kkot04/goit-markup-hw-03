@@ -66,6 +66,7 @@ body{
 /* logo-section */
 .header {
     /* background-color: hotpink; */
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-wrapper{
@@ -77,7 +78,6 @@ body{
 .header-nav{
     display: flex;
     justify-content: space-between;
-    gap: 76px;
     align-items: center;
 }
 
@@ -89,6 +89,7 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 
 }
 
@@ -106,13 +107,12 @@ body{
 .header-list {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
 }
 
 .header-item {
-    /* margin-top: 24px;
-    margin-bottom: 24px; */
+    padding: 24px 0;
 }
 
 .header-link {
@@ -173,6 +173,10 @@ body{
     
 }
 
+.hero-wrapper{
+
+}
+
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
@@ -197,6 +201,7 @@ body{
     border: none;
     border-radius: 4px;
     padding: 16px;
+    /* margin-left: 155px; */
 }
 
 .hero-btn:hover {
@@ -325,6 +330,8 @@ body{
     line-height: 1.5;
     color: var(--light, #F4F4FD);
     letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 
@@ -376,4 +383,5 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text, #434455);
+    
 }
