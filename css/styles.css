@@ -57,7 +57,7 @@ body{
 
 
 .container {
-    max-width: 1158px;
+    width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -65,15 +65,20 @@ body{
 
 /* logo-section */
 .header {
-    background-color: hotpink;
+    /* background-color: hotpink; */
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
     
 }
 
-
-
 .header-nav{
-
-    
+    display: flex;
+    justify-content: space-between;
+    gap: 76px;
+    align-items: center;
 }
 
 .logo {
@@ -99,11 +104,15 @@ body{
 }
 
 .header-list {
-   
+    display: flex;
+    gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-item {
-
+    /* margin-top: 24px;
+    margin-bottom: 24px; */
 }
 
 .header-link {
@@ -128,10 +137,15 @@ body{
 }
 
 .address-list {
-
+    display: flex;
+    gap: 40px;
+    align-items: center;
 }
 
-.address-item {}
+.address-item {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
 
 .address-link {
     color: var(--text, #434455);
