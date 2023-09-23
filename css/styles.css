@@ -256,7 +256,7 @@ body{
 .doing-section {
     margin-top: 60px;
     margin-bottom: 120px;
-    padding-bottom: 120px
+    /* padding-bottom: 120px */
 }
 
 .doing-title {
@@ -296,7 +296,7 @@ body{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--dark, #2E2F42);
-    padding-top: 120px;
+    /* padding-top: 120px; */
     margin-bottom: 72px;
     
 }
@@ -314,7 +314,7 @@ body{
     justify-content: center;
     align-items: center;
     /* gap: 32px; */
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
     border-radius: 0px 0px 4px 4px;
 }
 .team-descr{
