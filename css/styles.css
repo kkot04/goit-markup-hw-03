@@ -184,7 +184,9 @@ body{
     letter-spacing: 0.02em;
     color: var(--white-background, #FFFFFF);
     max-width: 496px;
-    margin-bottom: 48px;
+    /* margin-bottom: 48px; */
+    margin: 0 auto 48px auto;
+    display: block;
 }
 
 .hero-btn {
@@ -200,10 +202,9 @@ body{
     height: 56px;
     border: none;
     border-radius: 4px;
-    padding: 16px;
-
+    margin: 0 auto;
     display: block;
-    /* margin-left: 155px; */
+
 }
 
 .hero-btn:hover {
