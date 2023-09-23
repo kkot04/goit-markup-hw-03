@@ -107,6 +107,7 @@ body{
 .header-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
     /* padding-top: 24px;
     padding-bottom: 24px; */
 }
@@ -168,9 +169,8 @@ body{
 /* hero section */
 .hero-section {
     background-color: var(--dark, #2E2F42) ;
-    padding: 188px 472px 188px 472px ;
     margin-bottom: 120px;
-    
+    padding: 188px 0;
 }
 
 .hero-wrapper{
@@ -201,6 +201,8 @@ body{
     border: none;
     border-radius: 4px;
     padding: 16px;
+
+    display: block;
     /* margin-left: 155px; */
 }
 
