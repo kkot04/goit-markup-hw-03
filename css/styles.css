@@ -219,7 +219,7 @@ body{
 
 /* benefits section */
 .benefits-section {
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
     padding: 120px 0;
 }
 
@@ -255,8 +255,9 @@ body{
 /* doing sectoin */
 .doing-section {
     margin-top: 60px;
-    margin-bottom: 120px;
+    /* margin-bottom: 120px; */
     /* padding-bottom: 120px */
+    padding-bottom: 120px;
 }
 
 .doing-title {
@@ -390,7 +391,8 @@ body{
 
 
 .btn-section {
-    margin-top: 96px;
+    /* margin-top: 96px; */
+    padding: 96px 0 120px 0
 }
 
 .btn-wrapper{
@@ -401,6 +403,7 @@ body{
     display: flex;
     gap: 24px;
     justify-content: center;
+    margin-bottom: 72px;
 }
 
 
