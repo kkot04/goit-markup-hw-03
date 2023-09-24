@@ -421,6 +421,8 @@ body{
     color: var(--primary-brand, #4D5AE5);
     background-color: var(--light, #F4F4FD);
     cursor: pointer;
+    border-radius: 4px;
+    padding: 12px 24px;
 }
 
 .btn:hover{
@@ -433,18 +435,25 @@ body{
     background-color: var(--pressed-state, #404BBF);
 }
 
-.photo-list {}
+.photo-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
 
 .photo-item {}
 
-.photo-portfolio {}
+.photo-portfolio {
+    padding-bottom: 32px;
+}
 
 .photo-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--dark, #2E2F42)
+    color: var(--dark, #2E2F42);
+    padding-bottom: 8px;
 }
 
 .photo-text {
@@ -452,5 +461,6 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text, #434455);
+    padding-bottom: 32px;
     
 }
