@@ -423,28 +423,38 @@ body{
     cursor: pointer;
     border-radius: 4px;
     padding: 12px 24px;
+     border: 1px solid var(--accent, #e7e9fc)
 }
 
 .btn:hover{
     color: var(--white-background, #FFFFFF);
     background-color: var(--pressed-state, #404BBF);
+    border: 1px solid transparent;
 }
 
 .btn:focus{
     color: var(--white-background, #FFFFFF);
     background-color: var(--pressed-state, #404BBF);
+    border: 1px solid transparent;
 }
 
 .photo-list {
     display: flex;
-    gap: 24px;
+    row-gap: 48px;
     flex-wrap: wrap;
 }
 
 .photo-item {}
 
 .photo-portfolio {
-    padding-bottom: 32px;
+    /* padding-bottom: 32px; */
+}
+
+.app-wrapper{
+    padding: 32px 16px;
+    border: 1px solid var(--accent, #E7E9FC);
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 .photo-title {
@@ -453,7 +463,7 @@ body{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark, #2E2F42);
-    padding-bottom: 8px;
+    /* padding-bottom: 8px; */
 }
 
 .photo-text {
@@ -461,6 +471,6 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text, #434455);
-    padding-bottom: 32px;
+    /* padding-bottom: 32px; */
     
 }
