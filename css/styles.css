@@ -442,6 +442,7 @@ body{
     display: flex;
     row-gap: 48px;
     flex-wrap: wrap;
+    column-gap: 24px;
 }
 
 .photo-item {}
@@ -464,6 +465,7 @@ body{
     letter-spacing: 0.02em;
     color: var(--dark, #2E2F42);
     /* padding-bottom: 8px; */
+    margin-bottom: 8px;
 }
 
 .photo-text {
