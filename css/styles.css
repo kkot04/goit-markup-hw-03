@@ -65,8 +65,8 @@ body{
 
 /* logo-section */
 .header {
-    /* background-color: hotpink; */
     border-bottom: 1px solid #e7e9fc;
+    box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-wrapper{
@@ -90,6 +90,8 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 
 }
 
@@ -113,6 +115,17 @@ body{
 }
 
 .header-item {
+    position: relative;
+    color: #404BBF;
+}
+
+.header-item::after{
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
 }
 
 .header-link {
@@ -146,6 +159,7 @@ body{
 .address-item {
     margin-top: 24px;
     margin-bottom: 24px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link {
@@ -169,9 +183,12 @@ body{
 /* hero section */
 .hero-section {
     background-color: var(--dark, #2E2F42) ;
-    /* margin-bottom: 120px; */
     padding: 188px 0;
-    
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg/img.1.jpg);
+    max-width: 1440px;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero-wrapper{
